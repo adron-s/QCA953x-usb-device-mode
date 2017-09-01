@@ -57,8 +57,9 @@ Now you can access the router at address 169.254.64.80 (this is link-local
 address so no need to configure the PC).
 
 Also you can edit file /etc/modules.d/52-usb-gadget-eth:
-		usb_f_ecm
-		g_ether idVendor=0x04b3 idProduct=0x4010 dev_addr=00:0D:6E:41:D0:A5 host_addr=00:0E:6E:41:D0:A5
+
+	usb_f_ecm
+	g_ether idVendor=0x04b3 idProduct=0x4010 dev_addr=00:0D:6E:41:D0:A5 host_addr=00:0E:6E:41:D0:A5
 
 Strings "idVendor=0x04b3 idProduct=0x4010" are needed to make Microsoft Windows happy :-)
 
